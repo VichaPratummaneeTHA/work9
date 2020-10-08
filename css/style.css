@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 .navbar .nav-item {
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
@@ -50,8 +53,29 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(0, 0, 0, 0.8); }
   #video-play a {
     color: #fff; }
 
-/*# sourceMappingURL=style.css.map */
+#page-header {
+  height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 3rem; }
+
+.about-img {
+  margin-top: -50px; }
+
+#faq .card {
+  border: #eee 1px solid; }
+  #faq .card-header {
+    background: #333; }
+  #faq .card-body {
+    background: #fff;
+    color: #333; }
+#faq a {
+  color: #fff;
+  text-decoration: none; }
