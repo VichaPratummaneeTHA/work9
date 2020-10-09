@@ -79,3 +79,7 @@ body {
 #faq a {
   color: #fff;
   text-decoration: none; }
+
+#main-footer {
+  background: #333;
+  color: #fff; }
